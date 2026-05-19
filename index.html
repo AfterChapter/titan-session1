@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
   :root {
     --burgundy: #7A1C1C;
     --burgundy-deep: #5C1414;
@@ -20,7 +20,7 @@
     --text-dark: #2A0E0E;
     --text-mid: #5A3A2A;
   }
-
+ 
   body {
     background: var(--white);
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +31,7 @@
     align-items: flex-start;
     padding: 40px 20px;
   }
-
+ 
   .card {
     width: 100%;
     max-width: 760px;
@@ -39,7 +39,7 @@
     border: 1px solid var(--cream-dark);
     overflow: hidden;
   }
-
+ 
   /* Header */
   .header {
     background: var(--burgundy);
@@ -47,7 +47,7 @@
     position: relative;
     overflow: hidden;
   }
-
+ 
   .header::before {
     content: '';
     position: absolute;
@@ -58,7 +58,7 @@
     border-radius: 50%;
     border: 30px solid rgba(196,137,58,0.15);
   }
-
+ 
   .header::after {
     content: '';
     position: absolute;
@@ -69,7 +69,7 @@
     border-radius: 50%;
     border: 20px solid rgba(245,230,184,0.08);
   }
-
+ 
   .eyebrow {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -79,7 +79,7 @@
     color: var(--gold-light);
     margin-bottom: 14px;
   }
-
+ 
   .brand {
     font-family: 'Cormorant Garamond', serif;
     font-size: 13px;
@@ -89,7 +89,7 @@
     color: rgba(245,230,184,0.6);
     margin-bottom: 10px;
   }
-
+ 
   .session-title {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
@@ -98,25 +98,25 @@
     line-height: 1.25;
     max-width: 520px;
   }
-
+ 
   .session-title em {
     font-style: italic;
     color: var(--gold-light);
   }
-
+ 
   .gold-rule {
     width: 48px;
     height: 2px;
     background: var(--gold);
     margin: 22px 0 0;
   }
-
+ 
   /* Body */
   .body {
     padding: 0 48px 48px;
     background: var(--white);
   }
-
+ 
   /* Through line */
   .through-line {
     background: var(--cream-light);
@@ -124,7 +124,7 @@
     padding: 20px 24px;
     margin: 32px 0;
   }
-
+ 
   .through-line-label {
     font-size: 9px;
     font-weight: 600;
@@ -133,7 +133,7 @@
     color: var(--gold);
     margin-bottom: 8px;
   }
-
+ 
   .through-line-text {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
@@ -142,12 +142,12 @@
     color: var(--burgundy);
     line-height: 1.4;
   }
-
+ 
   /* Section */
   .section {
     margin-bottom: 32px;
   }
-
+ 
   .section-label {
     font-size: 9px;
     font-weight: 600;
@@ -158,20 +158,20 @@
     padding-bottom: 8px;
     margin-bottom: 18px;
   }
-
+ 
   /* Key takeaways grid */
   .takeaways-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
   }
-
+ 
   .takeaway-item {
     display: flex;
     gap: 12px;
     align-items: flex-start;
   }
-
+ 
   .takeaway-num {
     font-family: 'Cormorant Garamond', serif;
     font-size: 22px;
@@ -181,7 +181,7 @@
     flex-shrink: 0;
     width: 24px;
   }
-
+ 
   .takeaway-text {
     font-size: 12px;
     font-weight: 400;
@@ -189,14 +189,14 @@
     color: var(--text-mid);
     padding-top: 3px;
   }
-
+ 
   /* Four questions */
   .questions-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-
+ 
   .question-item {
     display: flex;
     gap: 14px;
@@ -205,7 +205,7 @@
     background: var(--cream-light);
     border-right: 3px solid var(--cream-dark);
   }
-
+ 
   .question-mark {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
@@ -214,7 +214,7 @@
     flex-shrink: 0;
     line-height: 1.3;
   }
-
+ 
   .question-text {
     font-family: 'Cormorant Garamond', serif;
     font-size: 16px;
@@ -222,26 +222,26 @@
     color: var(--text-dark);
     line-height: 1.4;
   }
-
+ 
   /* Practices */
   .practices-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
   }
-
+ 
   .practice-item {
     padding: 16px;
     border: 1px solid var(--cream-dark);
     background: var(--white);
   }
-
+ 
   .practice-icon {
     font-size: 18px;
     margin-bottom: 8px;
     display: block;
   }
-
+ 
   .practice-title {
     font-size: 11px;
     font-weight: 600;
@@ -250,13 +250,13 @@
     margin-bottom: 6px;
     text-transform: uppercase;
   }
-
+ 
   .practice-text {
     font-size: 12px;
     color: var(--text-mid);
     line-height: 1.55;
   }
-
+ 
   /* CTA */
   .cta {
     background: var(--burgundy);
@@ -267,12 +267,12 @@
     align-items: flex-start;
     flex-wrap: wrap;
   }
-
+ 
   .cta-block {
     flex: 1;
     min-width: 160px;
   }
-
+ 
   .cta-label {
     font-size: 9px;
     font-weight: 600;
@@ -281,14 +281,14 @@
     color: var(--gold-light);
     margin-bottom: 8px;
   }
-
+ 
   .cta-text {
     font-family: 'Cormorant Garamond', serif;
     font-size: 15px;
     color: var(--cream);
     line-height: 1.45;
   }
-
+ 
   .cta-link {
     font-size: 11px;
     font-weight: 500;
@@ -299,14 +299,14 @@
     text-decoration: none;
     border-bottom: 1px solid rgba(196,137,58,0.4);
   }
-
+ 
   .cta-divider {
     width: 1px;
     background: rgba(196,137,58,0.25);
     align-self: stretch;
     min-height: 60px;
   }
-
+ 
   /* Footer */
   .footer {
     padding: 16px 48px;
@@ -316,7 +316,7 @@
     align-items: center;
     background: var(--white);
   }
-
+ 
   .footer-brand {
     font-family: 'Cormorant Garamond', serif;
     font-size: 12px;
@@ -324,13 +324,13 @@
     text-transform: uppercase;
     color: var(--text-mid);
   }
-
+ 
   .footer-date {
     font-size: 10px;
     color: #AAA;
     letter-spacing: 0.5px;
   }
-
+ 
   @media (max-width: 580px) {
     .header, .body { padding-left: 28px; padding-right: 28px; }
     .takeaways-grid, .practices-list { grid-template-columns: 1fr; }
@@ -339,7 +339,7 @@
     .footer { flex-direction: column; gap: 6px; text-align: center; }
     .session-title { font-size: 24px; }
   }
-
+ 
   @media print {
     body { padding: 0; background: white; }
     .card { border: none; max-width: 100%; }
@@ -348,7 +348,7 @@
 </head>
 <body>
 <div class="card">
-
+ 
   <!-- HEADER -->
   <div class="header">
     <div class="brand">The After Chapter</div>
@@ -356,16 +356,16 @@
     <h1 class="session-title">Who Am I Now?<br><em>Empty Mondays</em></h1>
     <div class="gold-rule"></div>
   </div>
-
+ 
   <!-- BODY -->
   <div class="body">
-
+ 
     <!-- Through line -->
     <div class="through-line">
       <div class="through-line-label">The Through Line</div>
       <div class="through-line-text">Who are you when the calendar is empty?</div>
     </div>
-
+ 
     <!-- Key Takeaways -->
     <div class="section">
       <div class="section-label">6 Things You're Leaving With</div>
@@ -396,7 +396,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- Four Questions -->
     <div class="section">
       <div class="section-label">4 Questions to Carry With You</div>
@@ -419,7 +419,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- Suggested Practices -->
     <div class="section">
       <div class="section-label">2 Suggested Practices</div>
@@ -436,15 +436,15 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- CTA -->
     <div class="cta">
       <div class="cta-block">
         <div class="cta-label">The After Chapter Podcast</div>
         <div class="cta-text">Continue this conversation. New episodes every week.</div>
-        <a class="cta-link" href="https://open.spotify.com/show/1u0S3AcLFECYFIBMzMWhzm" target="_blank">Listen on Spotify</a>
+        <a class="cta-link" href="https://open.spotify.com/show/2zMXTWLq67txPAbiuAyKUK" target="_blank">Listen on Spotify</a>
         <br>
-        <a class="cta-link" href="https://podcasts.apple.com/us/podcast/the-after-chapter/id1781650614" target="_blank" style="margin-top:4px;">Listen on Apple Podcasts</a>
+        <a class="cta-link" href="https://podcasts.apple.com/us/podcast/after-chapter-podcast/id1880248291" target="_blank" style="margin-top:4px;">Listen on Apple Podcasts</a>
       </div>
       <div class="cta-divider"></div>
       <div class="cta-block">
@@ -459,20 +459,20 @@
         <a class="cta-link" href="mailto:info@afterchapterpodcast.com">info@afterchapterpodcast.com</a>
       </div>
     </div>
-
+ 
     <!-- Linktree -->
     <div style="text-align:center; padding: 16px 0 8px;">
       <a href="https://linktr.ee/afterchapterpodcast" target="_blank" style="font-size:11px;color:var(--gold);font-weight:500;letter-spacing:0.5px;text-decoration:none;border-bottom:1px solid rgba(196,137,58,0.4);">linktr.ee/afterchapterpodcast</a>
     </div>
-
+ 
   </div>
-
+ 
   <!-- FOOTER -->
   <div class="footer">
     <div class="footer-brand">A TITAN Reckoning Series &nbsp;|&nbsp; The After Chapter</div>
     <div class="footer-date">Session 1 of 4 &nbsp;|&nbsp; May 19, 2026</div>
   </div>
-
+ 
 </div>
 </body>
 </html>
